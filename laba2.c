@@ -13,12 +13,6 @@ int main() {
     // Обчислення та виведення результатів
     printf("\nРезультати обчислень:\n");
 
-    if (num2 != 0) {
-        printf("1) Залишок від ділення %d на %d: %d\n", num1, num2, num1 % num2);
-    } else {
-        printf("1) Помилка: ділення на нуль неможливе!\n");
-    }
-
     int difference_product = (num2 - num1) * (num1 - num2);
     int sum_of_cubes = (num1 * num1 * num1) + (num2 * num2 * num2);
     
