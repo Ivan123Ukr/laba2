@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+ const int main() {
     // Задані сталі величини
     int a = 2, b = 5, c = 8;
     
